@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+div {
+  height: auto; 
+  /* formats to screen? */
+  width: 1000px;
+  margin: 0 auto; 
+  /* formats to screen? */
+  }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+  /* Box-model */
+  padding: 5;
+
+  /* Positioning */
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  /* Typography */
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(0, 0, 0);
+
+  /* Visual */
+  background: #efeee7;
+}
+
+header {
+  background: #e9e9e9;
+}
+
+h1 {
+    
+  /* Box-model */
+  padding: 20px 0;
+
+  /* Positioning */
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+
+  /* Typography */
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+  /* Visual */
+  background: rgb(197, 114, 114);
+}
+
+h2 {
+  font-size: 45px;
+}
+
+a {
+  color: #000000;
+}
+
+.container {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 0 auto;
+}
+
+#main-bio,
+#projects,
+#bio-image,
+#contact-me,
+ {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+  float:left
+}
+
+#projects {
+    
+  width: 30%;
+    float:left
+}
+
+#contact-me{
+    width: 30%;
+    float:left
+ }
+
+#bio-image {
+  /* Box-model */
+  width: 200px;
+  height: 200px;
+
+  /* Positioning */
+
+  margin-right: 20px;
+}
